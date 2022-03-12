@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read('/Users/mack/PycharmProjects/nopCommerceApp/Configurations/config.ini')
+config.read('/Users/mack/PycharmProjects/Selenium_With_Python/nopCommerceApp/Configurations/config.ini')
 
 
 class readConfig:
