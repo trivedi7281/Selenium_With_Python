@@ -2,11 +2,9 @@ import logging
 
 class LogGen:
     @staticmethod
-    def loggen():
-
-    logging.basicConfig(filename=".\\Logs\\automation.log"
-
-format= '%(levelname)s: %(message)s', datefmt='%m/%d/%y %I:%m:%s %P')
-    logger=logging.getlogger()
-    logger.setlevel(logging.INFO)
-    return logger
+    def logger():
+         logging.basicConfig(filename=".\\Logs\\automation.log",
+                            format='%(asctime)s: %(levelname)s: %(message)', datefmt='%m%d%Y %I:%M:%S %p')
+         logger=logging.getLogger()
+         logger.setLevel(logging.INFO)
+         return logger

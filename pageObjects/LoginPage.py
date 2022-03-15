@@ -22,15 +22,4 @@ class Login:
         def clickLogout(self):
             self.driver.find_element_by_text(self.link_logout_linktext).click()
 
-    def setPassword(self, Password):
-     Pass
-
-    def clickLogin(self, Login):
-        Pass
-
-
-
-
-
-
 
